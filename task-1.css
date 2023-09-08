@@ -1,0 +1,93 @@
+/* github-like.css */
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* GitHub-like Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #06407a;
+}
+
+.container {
+    max-width: 1213px;
+    margin: 21px 216px;
+    padding: 20px;
+    background-color: #0d0d0d;
+    box-shadow: 0 0 10px rgba(80, 17, 192, 0.76);
+    
+  }
+
+
+header {
+    background-color: #24292e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.input-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+  display: block;
+  color: #4f2a2a;
+    
+    
+    
+}
+
+input[type="text"],
+textarea {
+    width: 96%;
+  padding: 10px;
+  border: 1px solid #030004;
+  border-radius: 5px;
+  font-size: 31px;
+}
+
+input[type="file"] {
+    display: none; /* Hide the file input */
+}
+
+button {
+    background-color: #0366d6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-display {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
